@@ -1,10 +1,10 @@
 # Initialize an empty dictionary to represent the inventory.
 inventory = {}
-
+numbers = (1,2,3,4,5)
 # Function to add items to the inventory.
 def add_item():
     name = input("Enter the item name: ")
-    quantity = int(input("Enter the quantity: ")
+    quantity = int(input("Enter the quantity: ")) 
     
     # Check if the item is already in the inventory and update its quantity.
     if name in inventory:
@@ -44,7 +44,7 @@ def search_item():
         print(f"{name} is not in stock.")
 
 while True:
-    print("\nInventory Management System")
+    print("Inventory Management System")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View Inventory")
